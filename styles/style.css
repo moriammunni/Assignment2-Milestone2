@@ -1,0 +1,93 @@
+.display-flex{
+    display: flex;
+}
+.navbar, .banner{
+    max-width: 1160px;
+    margin: 20px auto;
+    justify-content: space-between;
+    align-items: center;
+}
+.nav-link{
+    list-style: none;
+
+}
+.nav-iteam{
+    margin-right: 30px;
+    text-decoration: none;
+}
+.nav-link a{
+    text-decoration: none;
+}
+.btn-primary{
+    max-width: 195px;
+    border-radius: 12px;
+    color: #FFFFFF;
+    background-color: #FEA301;
+    border: none;
+    padding: 10px 60px;
+}
+.btn-primary1{
+   color: #FFFFFF;
+   font-size: 1.25rem;
+   font-weight: 700;
+   background-color: #111111;
+   padding: 10px 47px; 
+   border: none;
+   border-radius: 12px;
+
+}
+#iteam1{
+    color: #FEA301;
+    font-weight: 700;
+    font-size: 1.25rem;
+}
+#iteam2{
+    color: #01ACFD ;
+    font-weight: 500;
+    font-size: 1.25rem;
+}
+#iteam3{
+    color: #05D4DF;
+    font-weight: 500;
+    font-size: 1.25rem;
+}
+#iteam4{
+    color: #5D58EF;
+    font-weight: 500;
+    font-size: 1.25rem;
+}
+.banner-content{
+    max-width: 640px;
+}
+.banner-title{
+    font-weight: 700;
+    font-size: 3.5rem;
+    color: #111111;
+    margin-bottom: 24px;
+}
+#empowering{
+    color: #FEA301;
+
+}
+#towards{
+    color: #01ACFD;
+}
+.banner-description{
+    font-size: 1.25rem;
+    margin-bottom: 24px;
+}
+@media screen and (max-width:576px) {
+    
+    
+    .banner{
+        flex-direction: column-reverse;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+    .img-container img {
+        width: 100%;
+        height: auto;
+    }
+    
+}
