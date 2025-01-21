@@ -1,24 +1,35 @@
-.display-flex{
+.display-flex {
     display: flex;
 }
-.navbar, .banner{
+
+.navbar,
+.banner {
     max-width: 1160px;
     margin: 0 auto;
     justify-content: space-between;
     align-items: center;
 }
-.nav-link{
+
+.navbar .fa-bars {
+    display: none;
+
+}
+
+.nav-link {
     list-style: none;
 
 }
-.nav-iteam{
+
+.nav-iteam {
     margin-right: 30px;
     text-decoration: none;
 }
-.nav-link a{
+
+.nav-link a {
     text-decoration: none;
 }
-.btn-primary{
+
+.btn-primary {
     max-width: 195px;
     border-radius: 12px;
     color: #FFFFFF;
@@ -26,203 +37,323 @@
     border: none;
     padding: 10px 60px;
 }
-.btn-primary1{
-   color: #FFFFFF;
-   font-size: 1.25rem;
-   font-weight: 700;
-   background-color: #111111;
-   padding: 10px 47px; 
-   border: none;
-   border-radius: 12px;
+
+.btn-primary1 {
+    color: #FFFFFF;
+    font-size: 1.25rem;
+    font-weight: 700;
+    background-color: #111111;
+    padding: 10px 47px;
+    border: none;
+    border-radius: 12px;
+    margin: 0 auto;
 
 }
-#iteam1{
+#view{
+    margin: 80px 450px 60px 450px;
+   text-align: center;
+
+
+}
+
+#iteam1 {
     color: #FEA301;
     font-weight: 700;
     font-size: 1.25rem;
 }
-#iteam2{
-    color: #01ACFD ;
+
+#iteam2 {
+    color: #01ACFD;
     font-weight: 500;
     font-size: 1.25rem;
 }
-#iteam3{
+
+#iteam3 {
     color: #05D4DF;
     font-weight: 500;
     font-size: 1.25rem;
 }
-#iteam4{
+
+#iteam4 {
     color: #5D58EF;
     font-weight: 500;
     font-size: 1.25rem;
 }
-.banner-content{
+
+.banner-content {
     max-width: 640px;
 }
-.banner-title{
+
+.banner-title {
     font-weight: 700;
     font-size: 3.5rem;
     color: #111111;
     margin-bottom: 24px;
 }
-#empowering{
+
+#empowering {
     color: #FEA301;
 
 }
-#towards{
+
+#towards {
     color: #01ACFD;
 }
-.banner-description{
+
+.banner-description {
     font-size: 1.25rem;
     margin-bottom: 24px;
 }
-.keep-title{
+
+.keep-title {
     color: #FFFFFF;
     font-weight: 700;
     font-size: 1.6rem;
 }
-main{
+
+main {
     margin: 200px 140px;
 }
-.standard-curriculum{
+
+.standard-curriculum {
     background-image: url(../assets/bg.png);
 }
-.curriulum-title{
+
+.curriulum-title {
     font-weight: 700;
     font-size: 2.8rem;
     text-align: center;
     margin-bottom: 80px;
     margin-top: 60px;
 }
-.card{
+
+.card {
     gap: 28px;
     margin: 0 auto;
     justify-content: center;
     align-items: center;
     text-align: center;
 }
-.card-title{
+
+.card-title {
 
     font-weight: 700;
     font-size: 1.5rem;
 }
-.card-description{
+
+.card-description {
     color: #808080;
     font-size: 0.94rem;
     font-weight: 500;
     color: #808080;
 }
-.card-text1{
+
+.card-text1 {
     color: #64C8FF;
     font-weight: 700;
     font-size: 0.94rem;
 }
-.card-text2{
+
+.card-text2 {
     color: #F0AA00;
     font-weight: 700;
     font-size: 0.94rem;
 }
-.card-text3{
+
+.card-text3 {
     color: #8700FF;
     font-weight: 700;
     font-size: 0.94rem;
 }
 
-.card-1{
-    background-color: rgba(222, 245, 255, 1.00);
+.card-1 {
+
     width: 367px;
     height: 476px;
     border-radius: 18px;
 }
-.card-2{
+
+#grad1 {
+    background-image: linear-gradient(#DEF5FF, #FFFFFF);
+}
+
+#grad2 {
+    background-image: linear-gradient(#FFF4DC, #FFFFFF);
+}
+
+#grad3 {
+    background-image: linear-gradient(#F2E8FF, #FFFFFF);
+}
+
+.card-2 {
     background-color: rgba(255, 244, 220, 1.00);
     width: 367px;
     height: 476px;
     border-radius: 18px;
 }
-.card-3{
+
+.card-3 {
     background-color: rgba(238, 225, 255, 1.00);
     width: 367px;
     height: 476px;
     border-radius: 18px;
 }
-.our-stories{
+
+.left-right-icon {
+    width: 130px;
+    margin: 0 auto;
+    text-align: center;
+    margin-top: 80px;
+    margin-bottom: 60px;
+
+}
+
+.fa-angle-left,
+.fa-angle-right {
+    background-color: #FEA301;
+    padding: 17px 22px;
+    align-items: center;
+    border-radius: 100%;
+    color: #FFFFFF;
+}
+
+.our-stories {
     background-image: url(../assets/bg.png);
     max-width: 1160px;
     margin: 0 auto;
-    text-align: center;
+
 
 }
-.btn-primary2{
+
+#grad {
+    background-image: linear-gradient(#ffff, rgba(249, 208, 175, 1.00));
+}
+
+.first-story {
+    max-width: 540px;
+    height: 630px;
+    background-color: #FFFFFF;
+    border-radius: 16px;
+}
+
+.story {
+    border-radius: 16px;
+    background-color: #FFFFFF;
+}
+
+.btn-primary2 {
     background-color: #3CD8E8;
     border-radius: 47px;
     color: #FFFFFF;
     font-size: 0.94rem;
     border: none;
     padding: 14px 19px;
-    margin-left: 38px;
+    margin-left:38px;
     margin-top: -200px;
 }
-.img-container{
-    display: grid;
-    grid-template-columns: repeat(2,1fr);
-    gap: 18px;
+.btn-2-4-5{
+    background-color: #95B226;
 }
-footer{
-    background-color: #01ACFD;
+.img-container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 18px;
+    margin-left: 18px;
+}
+
+footer {
+    background-color: #64C8FF;
+    margin-top: 0px;
 }
 .footer-container{
+    margin-top: 0px;
+}
+
+.footer-container section {
+    max-width: 30%;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.keep-link {
+    margin-left: 0px;
+}
+
+#keep-link {
+    display: block;
+}
+
+.footer-container {
     justify-content: space-between;
 
-    padding: 123px 228px 174px 140px ;
+    padding: 123px 228px 174px 140px;
 
-    
+
 }
-.keep-img{
-    margin-left: 10px;
-}
-.education-description{
+
+.education-description {
     color: #FFFFFF;
     font-size: 1.25;
 }
-.iteam{
+
+.iteam {
     color: #FFFFFF;
 }
-.keep in touch{
+
+.keep in touch {
     margin-left: 143px;
 }
+
 @media screen and (max-width:576px) {
-    .nav-link{
-        display: none;
-        
+    .navbar .fa-bars {
+        display: block;
+
     }
-    .btn-primary{
+
+    .nav-link {
+        display: none;
+
+    }
+
+    .btn-primary {
         display: none;
     }
-    .school{
+
+    .school {
         display: none;
     }
-    
-    
-    
-    .banner{
+
+
+
+    .banner {
         flex-direction: column-reverse;
         justify-content: center;
         align-items: center;
         text-align: center;
     }
+
     .img-container img {
         width: 100%;
         height: auto;
     }
-    .card{
+
+    .card,
+    .footer-container {
         flex-direction: column;
     }
-    .first-story{
+
+    .keep-img {
+        display: flex;
+        gap: 8px;
+    }
+
+    .first-story {
         display: none;
     }
-    .img-container{
-        grid-template-columns: ;
+
+    .img-container {
+        grid-template-columns: repeat(2, 1fr);
     }
-    
+
 }
