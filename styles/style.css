@@ -55,6 +55,7 @@
 
 }
 #view{
+    margin: 0px auto;
     margin: 80px 450px 60px 450px;
    text-align: center;
 
@@ -136,6 +137,11 @@ main {
     align-items: center;
     text-align: center;
 }
+.card-1, .card-2, .card-3 {
+    box-shadow: 0px 0px 25.3px 0.84px;
+}
+
+
 
 .card-title {
 
@@ -225,10 +231,6 @@ main {
     margin: 0 auto;
 
 
-}
-.stories{
-     max-width: 1440px;
-     margin: 0 auto;
 }
 
 #grad {
@@ -340,12 +342,21 @@ footer {
     }
     .img-container img {
         width: 100%;
-        height: auto;
     }
 
     .card,
-    .footer-container {
+    footer {
         flex-direction: column;
+    }
+    .footer-container{
+        padding: 16px;
+
+    }
+    .footer-container section {
+        max-width: 100%;
+    }
+    #view{
+        margin: 20px 110px 40px 110px;
     }
 
     .keep-img {
